@@ -1,0 +1,23 @@
+/***************************************************************************************************
+*
+* WARNING:
+* This file is generated and should not be modified.
+*
+***************************************************************************************************/
+
+#ifndef @HEADER_PREFIX@_GLOBAL
+#define @HEADER_PREFIX@_GLOBAL
+
+#include <QtGlobal>
+
+#ifdef @HEADER_PREFIX@_LIBRARY
+
+#define @HEADER_PREFIX@_EXPORT Q_DECL_EXPORT
+
+#else
+
+#define @HEADER_PREFIX@_EXPORT Q_DECL_IMPORT
+
+#endif
+
+#endif // @HEADER_PREFIX@_GLOBAL
